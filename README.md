@@ -18,10 +18,10 @@ JSP-workshop
  * A dialog pops up that lets you specify a new run configuration. You only have to fill this in once.
  * In the field 'target', enter "tomcat7:run".
  * Press 'Run' and wait a bit. There should be 
- * Open your browser and navigate to [localhost:8080/][2]
+ * Open your browser and navigate to [localhost:8080][2]
  * If you see "Hello World!" then you successfully completed the first part of the workshop.
 
 
 
 [1]: https://github.com/25A0/JSP-workshop/archive/master.zip
-[2]: localhost:8080/
+[2]: http://localhost:8080
