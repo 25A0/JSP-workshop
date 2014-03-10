@@ -7,7 +7,10 @@
     <jsp:invoke fragment="head" />
 </head>
 <body>
-    sadklfjsdklfa
+    <h2>The JSP workshop page</h2>
+    <a href="/echo">Echo page</a>
+    <a href="/print">Print page</a>
+    <a href="/">Home</a><br>
     <jsp:invoke fragment="body" />
 </body>
 </html>
