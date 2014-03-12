@@ -50,7 +50,7 @@ In src/main/java, you can find a package called workshop.controller. Open the ja
 	* Create a new file `print.jsp` in the view directory. Edit `main.tag` so there is also a link to the new file. Now, first copy/paste everything from `index.jsp` into `print.jsp`. Then, add another external tag-library: http://java.sun.com/jsp/jstl/core (use "uri" instead of "tagdir" to set the link). You are free to choose your own prefix, although "c" is common for this library. We are now able to use a method called `forEach` with which we are going to print all system-properties.
 	* Next, create an HTML-table inside the `<jsp:attribute name="body">` block and use the `forEach`-function to create cells containing the system properties. The `forEach`-function should be called like this: `<tagprefix:forEach items="${properties}" var="varname">`. Inside this loop you can access `${varname.key}` and `${varname.value}`.
 	* When done, don’t forget to create a PrintController in the `workshop.controller` package just like IndexController. Be sure to set the right `@RequestMapping` and return-value for it. Also, add the line: 
-	`model.addAttribute("properties", System.getProperties()));`
+	`model.addAttribute("properties", System.getProperties());`
 	into the `public String get(...)` method. Note that we use `properties` in the `forEach` method from `print.jsp`. 
 	* See if it all works by refreshing your browser.
 
