@@ -16,7 +16,7 @@ JSP-workshop
  * In the package explorer, you should see a project called "JSP-workshop".
  * Right-click on the project, choose 'Run as' > 'Maven Build' (without the three dots at the end).
  * A dialog pops up that lets you specify a new run configuration. You only have to fill this in once.
- * In the field 'target', enter `tomcat7:run`.
+ * In the field 'Goal', enter `tomcat7:run`.
  * Press 'Run' and wait a bit until the console stops printing new output.
  * Open your browser and navigate to [localhost:8080][2]
  * If you see "Hello World!" then you successfully completed the first part of the workshop.
