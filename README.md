@@ -31,7 +31,6 @@ In our file main.tag, we use a predefined tag, `<jsp:invoke fragment="body" />`.
 
 
 ### Controllers:
-<<<<<<< HEAD
 In src/main/java, you can find a package called workshop.controller. Open the java-class IndexController in this package. This class will be used as a controller for the file index.jsp (which you will extend in the next exercise). In the file IndexController.java you can see a list of imports that are needed for the Spring framework. `@Controller` tells the Spring framework that you are making a controller. `@RequestMapping` maps specific requests to the controller. In this case it tells you which URL is ‘controlled’. Here that is "/" which means the index file. The return value of the controller methods specifies which view is to be shown.
 
 
